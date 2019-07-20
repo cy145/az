@@ -1,5 +1,6 @@
+package cn.mldn.hr.vo;
 import java.util.List;
-public class Admin{
-	private List<Emp> emps;
-	CHANGE
+public class Admin implements Serializable{
+	private String aid;
+	private String password;
 }
